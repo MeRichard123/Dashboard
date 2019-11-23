@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="../Dashboard/home.html" class="nav-link">Dashboard</a>
+            <a href="/Dashboard/home.html" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item">
             <a href="todo.html" class="nav-link link-active" target="_blank"
@@ -36,9 +36,19 @@
     </nav>
   </header>
   <body>
-    <script src="todoapp.js"></script>
+    <div class="wrapper">
+      <div id="myDiv" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title..." />
+        <span class="addBtn">Add</span>
+      </div>
+
+      <ul id="myUl"></ul>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="todoapp.js"></script>
   </body>
 </html>
+
