@@ -28,8 +28,16 @@ nav {
   color: white !important;
 }
 
-body {
-  background: #63cdda;
+.wrapper {
+  height: 93vh;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2f96ff),
+    to(#303e8f)
+  );
+  background: linear-gradient(#2f96ff, #303e8f);
 }
 
 .wrapper {
