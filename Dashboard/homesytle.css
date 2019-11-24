@@ -107,4 +107,28 @@ main {
     font-size: 2.75rem;
   }
 }
-/*# sourceMappingURL=homesytle.css.map */
+
+@media screen and (max-width: 440px) {
+  .msg {
+    font-size: calc(5.5 / 2) rem;
+  }
+  .temperature,
+  .location,
+  .degree-section {
+    font-size: calc(5.5 / 2) rem;
+  }
+  .location {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .msg,
+  .location-timezone {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
