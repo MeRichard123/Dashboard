@@ -142,3 +142,9 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+@media screen and (max-width: 380px) {
+  .wrapper {
+    padding: 0;
+    padding: 20px 0 0 0;
+  }
+}
