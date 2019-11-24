@@ -129,4 +129,29 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 640px) {
+  .mountain {
+    width: 110%;
+    top: 80%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .mountain {
+    width: 120%;
+  }
+  .message {
+    -webkit-transform: scale(0.5) translateY(200%);
+            transform: scale(0.5) translateY(200%);
+    left: 20%;
+  }
+  .field-name {
+    width: 80%;
+    -webkit-transform: translate(-45%, -50%);
+            transform: translate(-45%, -50%);
+  }
+  .cloud_one {
+    left: 0;
+  }
+}
 /*# sourceMappingURL=indexstyle.css.map */
