@@ -52,10 +52,11 @@ nav {
   font-size: 18px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  /*
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;*/
 }
 
 #list-item {
