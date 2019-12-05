@@ -2,7 +2,8 @@ const arrow = document.querySelector(".arrow");
 const textBox = document.querySelector(".text_box");
 
 window.addEventListener("load", () => {
-  textBox.addEventListener("input", () => {
+  textBox.addEventListener("input", (e) => {
+    e.preventDefault()
     arrow.classList.remove("inactive");
   });
   arrow.addEventListener("click", () => {
