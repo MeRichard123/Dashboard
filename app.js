@@ -10,8 +10,4 @@ window.addEventListener("load", () => {
     localStorage.clear();
     localStorage.setItem("username", name);
   });
-  textBox.keydown(function (event) {
-    if (event.which === 13 || event.keyCode === 13) {
-        event.preventDefault();
-  });
 });
